@@ -1,5 +1,5 @@
 # Black-System-Resource-Modelling
-## MAFC-RAT-CJC
+## Source code for the paper entitled "A Trace-Driven Approach to Mobile App Functionality Classification"
 ### Environment
 #### Create the Environment
 Step 1: conda create --name rat python=3.6.5;
