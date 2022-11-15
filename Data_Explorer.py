@@ -1,14 +1,14 @@
 import numpy as np
 import time
 import os
-import AFD.AFD_Constants as Local_Constants
+import utilities.Constants as Local_Constants
 import utilities.Constants as Constants
-from AFD.AFD_Utils import construct_method_call_tree, draw_2D_figure
+from utilities.Utils import construct_method_call_tree, draw_2D_figure
 from sklearn import manifold
 import pandas as pd
 from matplotlib.figure import Figure
-from AFD.mts_representation_generator import MTS_Representation_Generator
-from AFD.semantic_mts_representation_generator import Semantic_MTS_Representation_Generator
+from representors import mts_representor
+from representors import semantic_mts_representor
 
 
 # Load and transform the raw traces of the specific dataset (i.e. category) into method call trees.

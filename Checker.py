@@ -1,6 +1,7 @@
 import utilities.Constants as Constants
 import numpy as np
 
+
 def check_BDT_SPLIT_RATIO_LIST():
     variable = Constants.BDT_SPLIT_RATIO_LIST
     print(type(variable))
@@ -12,4 +13,5 @@ def check_BDT_SPLIT_RATIO_LIST():
         raise ValueError(str(variable) + ' has negative element!')
     if max(variable) >= 1.0:
         raise ValueError(str(variable) + ' has element greater than 1.0!')
+
     return variable
